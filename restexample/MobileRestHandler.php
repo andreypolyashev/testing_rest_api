@@ -19,7 +19,7 @@ class MobileRestHandler extends SimpleRest {
 		$requestContentType = $_SERVER['HTTP_ACCEPT'];
 		$this ->setHttpHeaders($requestContentType, $statusCode);
 				
-		if(strpos(true){
+		if(true){
 			$response = $this->encodeJson($rawData);
 			echo $response;
 		} else if(strpos($requestContentType,'text/html') !== false){
